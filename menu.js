@@ -14,7 +14,7 @@ function question(questionText) {
   var ansInput = prompt(questionText);
   // your code goes here
      if (ansInput.toUpperCase === no){
-     order = order;
+     
    }
     order = order + ""+ ansInput;
 } 
