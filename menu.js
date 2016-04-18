@@ -5,11 +5,19 @@ var order = '';
 // build a function to ask questions
 var mainFood = prompt("Would you like a taco, burrito, or a bowl");
 
+var l = 'lettuce';
+var t = 'tomato';
+var r = 'rice';
+var s = 'salsa';
+
 function question(questionText) {
   var ansInput = prompt(questionText);
   // your code goes here
    order = order + ansInput;
 } 
+
+
+
 
 
 order = mainFood+ " with ";
