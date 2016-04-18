@@ -16,21 +16,15 @@ function question(questionText) {
    order = order + ansInput;
 } 
 
-
-
-
-
 order = mainFood+ " with ";
 // call the QUESTION function with the order options
 question("What type of meat would you like?");
  
-question("Would you like lettuce?");
+question("Would you like lettuce or spinach?");
  
-question("Would you like tomato?");
+question("Would you like brown rice or white rice?");
  
-question("Would you like rice?");
- 
-question("Would you like salsa");
+question("Would you like green salsa or red salsa");
  
 
 // output their order
