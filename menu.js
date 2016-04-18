@@ -6,7 +6,7 @@ var order = '';
 var mainFood = prompt("Would you like a taco, burrito, or a bowl");
 
 function question(questionText,) {
-  var ansInput = prompt(questionText)
+  var ansInput = prompt(questionText);
   // your code goes here
 } 
 
