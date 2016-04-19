@@ -13,7 +13,7 @@ var s = 'salsa';
 function question(questionText) {
   var ansInput = prompt(questionText);
   // your code goes here
-    order = order + ""+ ansInput;
+    order = order + ""+ ansInput + "";
 } 
 
 order = mainFood+ " with ";
