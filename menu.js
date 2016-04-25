@@ -9,7 +9,7 @@ var l = 'lettuce';
 var t = 'tomato';
 var r = 'rice';
 var s = 'salsa';
-var [] question = ["What type of meat would you like?", "Would you like lettuce or spinach?", "Would you like brown or white rice", Would you like green or red salsa?];
+var [] questions = ["What type of meat would you like?", "Would you like lettuce or spinach?", "Would you like brown or white rice", Would you like green or red salsa?];
 
 function question(questionText) {
   var ansInput = prompt(questionText);
@@ -25,7 +25,7 @@ function question(questionText) {
 // }
 order = mainFood+ " with ";
 // call the QUESTION function with the order options
-question(question[0]);
+question("hi" + questions +"there");
 // question("What type of meat would you like?");
 
 // question("Would you like lettuce or spinach?");
