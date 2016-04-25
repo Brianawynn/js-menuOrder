@@ -25,7 +25,7 @@ function question(questionText) {
 // }
 order = mainFood+ " with ";
 // call the QUESTION function with the order options
-question(question);
+question(question[0]);
 // question("What type of meat would you like?");
 
 // question("Would you like lettuce or spinach?");
